@@ -1,5 +1,7 @@
 # FlaskProject
- Creating a blog using Flask Module (Python)
+Purpose: Creating a blog using Flask Module (Python)
+
+Status: In-Progress
 
 ## Installing Dependencies
 Pipenv Help: https://realpython.com/pipenv-guide/
