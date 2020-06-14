@@ -3,9 +3,9 @@ Purpose: Creating a blog using Flask Module (Python)
 
 Status: In-Progress
 
-## Installing Dependencies
-Pipenv Help: https://realpython.com/pipenv-guide/
 
+
+## Installing Dependencies
 Install the pipenv module
 ```
 pip install pipenv
@@ -21,6 +21,10 @@ Install the depencies as a developer
 pipenv install --dev
 ```
 
+## Running This App
+Start the Flask App with the command: ```pipenv run python main.py```.
+
+## Extra Pipenv Commands
 View top level dependencies and their sub-dependencies
 ```
 pipenv graph
@@ -36,8 +40,4 @@ Run the environment shell
 pipenv shell
 ```
 
-Run the environment with commands
-```
-pipenv run python main.py
-```
-
+Pipenv Help: https://realpython.com/pipenv-guide/
