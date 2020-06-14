@@ -3,7 +3,7 @@ Purpose: Creating a blog using Flask Module (Python)
 
 Status: In-Progress
 
-
+Database Used: SQLAlchemy
 
 ## Installing Dependencies
 Install the pipenv module
@@ -38,6 +38,12 @@ pipenv check
 Run the environment shell
 ```
 pipenv shell
+```
+
+To generate a requirements.txt file
+```
+pipenv lock -r > requirements.txt
+pipenv lock -r -d > dev-requirements.txt
 ```
 
 Pipenv Help: https://realpython.com/pipenv-guide/
